@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DE_project</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <script>
+      function submitForm() {
+        var commentValue = encodeURIComponent(document.getElementById("query").value);
+        var form = document.getElementById("form");
+        form.action = "/response?query=" + commentValue;
+        form.submit();
+      }
+    </script>
+  </head>
+  <body>
+    <div class="testbox">
+      <form id="form" method="post">
+        <div class="banner">
+          <h1>DE project</h1>
+        </div>
+        <div class="item">
+          <h2 for="query">¿En qué puedo ayudarte?</h2>
+          <br>
+          <textarea id="query" rows="3"></textarea>
+        </div>
+        <div class="btn-block">
+          <button type="button" onclick="submitForm()">Send</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
