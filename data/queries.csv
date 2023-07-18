@@ -1,4 +1,8 @@
 id,date,query,response
-1,2023-07-15 17:22:02,Que temperatura en ÂºC harÃ¡ esta noche en CoruÃ±a?,La temperatura esta noche en CoruÃ±a es de 63Â°C.
+1,2023-07-15 17:22:02,Que temperatura en ºC hará esta noche en Coruña?,La temperatura esta noche en Coruña es de 63°C.
 2,2023-07-15 17:33:26,Que opinas del bootcamp de DS de The Bridge?,The Bridge Data Science Bootcamp in Madrid has many positive reviews and appears to be a great program for those interested in learning data science.
-3,2023-07-17 07:52:27,Cual es el salario medio en EspaÃ±a para un Data Science?,El salario medio anual para un Data Science en EspaÃ±a es de 39.550 â‚¬ + 3550 â‚¬ en beneficios adicionales.
+3,2023-07-17 07:52:27,Cual es el salario medio en España para un Data Science?,El salario medio anual para un Data Science en España es de 39.550 € + 3550 € en beneficios adicionales.
+4,2023-07-18 08:12:22,"Cuantas vacas hay en lugo?
+",10492 vacas hay en Lugo.
+5,2023-07-18 10:17:29,Cuantas vacas hay en lugo?,The average herd size in Lugo is 43 cows.
+6,2023-07-18 10:23:53,Cuantas vacas hay en Lugo?,The average number of cows in Lugo is estimated to be around 160.
